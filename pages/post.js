@@ -1,6 +1,5 @@
 import Layout from '../components/MyLayout'
 import fetch from 'isomorphic-unfetch'
-
 const Post = (props) => (
 	<Layout>
 		<h1>{props.show.name}</h1>
